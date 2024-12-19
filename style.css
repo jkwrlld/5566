@@ -1,0 +1,65 @@
+.container-grom {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 15px;
+}
+.container th {
+    font-size: 23px;
+    margin: 200px;
+    border: 3px;
+    background-color: yellow;
+}
+
+.container td {
+    font-size: 16px;
+}
+
+.container th:hover {
+    background-color: #3bccbd;
+    cursor: pointer;
+}
+
+
+.container th:first-child {
+    background-color: #09fd11;
+}
+
+.container th:last-child {
+    background-color: #09fd11;
+}
+
+.container td:nth-child(even) {
+    background-color: #e18513;
+}
+.container td:nth-child(odd) {
+    background-color: #e71de3;
+}
+
+.container td:nth-child(3n) {
+    background-color: #8dd5e7;
+}
+
+.rozklad {
+    text-align: center;
+}
+
+.qwe:active{
+    background: slategray;
+    color: silver;
+    border: 1px;
+    cursor: pointer;
+}
+
+.qwe:hover:active {
+    cursor: pointer;
+
+    background-color: blue;
+    color: yellow;
+}
+
+.asd:hover {
+    cursor: pointer;
+
+    background-color: rgb(31, 246, 45);
+    color: rgb(219, 251, 41);
+}
